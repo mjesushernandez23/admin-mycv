@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/conference-bookings",
+      "handler": "conference-booking.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/conference-bookings/count",
+      "handler": "conference-booking.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/conference-bookings/:id",
+      "handler": "conference-booking.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/conference-bookings",
+      "handler": "conference-booking.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/conference-bookings/:id",
+      "handler": "conference-booking.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/conference-bookings/:id",
+      "handler": "conference-booking.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
