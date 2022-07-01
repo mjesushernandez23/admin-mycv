@@ -53,7 +53,9 @@
       "type": "text"
     },
     "contact": {
-      "type": "richtext"
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-type.contact-list"
     }
   }
 }
