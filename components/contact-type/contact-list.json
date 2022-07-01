@@ -2,20 +2,11 @@
   "collectionName": "components_contact_type_contact_lists",
   "info": {
     "name": "contactList",
-    "icon": "th-list"
+    "icon": "th-list",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "icon": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "type": {
       "type": "enumeration",
       "enum": [
