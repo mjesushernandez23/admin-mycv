@@ -36,6 +36,11 @@
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-type.contact-list"
     }
   }
 }

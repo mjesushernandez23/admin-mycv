@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_contact_type_contact_lists",
+  "info": {
+    "name": "contactList",
+    "icon": "th-list"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "email",
+        "tel",
+        "whatsapp",
+        "repository"
+      ]
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}
