@@ -20,21 +20,11 @@
       "type": "string",
       "required": true
     },
-    "photo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
-    },
     "position": {
       "type": "string",
       "required": true
     },
-    "description": {
+    "aboutMe": {
       "type": "text"
     },
     "skills": {
@@ -45,12 +35,6 @@
     },
     "study": {
       "type": "richtext"
-    },
-    "objective": {
-      "type": "richtext"
-    },
-    "additional": {
-      "type": "text"
     },
     "contact": {
       "type": "component",
