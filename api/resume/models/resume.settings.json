@@ -27,9 +27,6 @@
     "aboutMe": {
       "type": "text"
     },
-    "skills": {
-      "type": "richtext"
-    },
     "workExperience": {
       "type": "richtext"
     },
@@ -40,6 +37,11 @@
       "type": "component",
       "repeatable": true,
       "component": "contact-type.contact-list"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills-list.skills-list"
     }
   }
 }
